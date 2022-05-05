@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    tools:context=".tercerFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="3"
+        android:textSize="250sp"
+        android:textColor="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAtras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ATRAS" />
+
+        <Button
+            android:id="@+id/btnInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOME" />
+    </LinearLayout>
+
+
+</FrameLayout>
